@@ -1,0 +1,120 @@
+/* stylesheet modified from: http://lubutu.com/idea/ivo */
+
+body {
+    border-top: solid #ddd 5px;
+    color: #1f1010;
+    font-family: Georgia, serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+small, abbr {
+    font-size: 13px;
+}
+.wrap {
+    margin: auto;
+    padding: 1em 1em 2em;
+    max-width: 50em;
+}
+h1, h2 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    margin: 1.2em 0 0.4em;
+}
+p {
+    margin: 0.8em 0;
+}
+hr {
+    background-color: #999;
+    border: none;
+    height: 2px;
+    margin-top: 3em;
+}
+blockquote {
+    border-left: solid #ddd 5px;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ol, ul {
+    padding-left: 0;
+}
+ol ol, ol ul, ul ol, ul ul {
+    padding-left: 1.2em;
+}
+td, th {
+    padding: 0 1em;
+    vertical-align: top;
+}
+sup {
+    line-height: 0;
+}
+sup a {
+    color: #d93c44;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+footer {
+    text-align: right;
+    float: right;
+    padding: 1em;
+}
+@media print {
+    body { border-top: none; }
+    .wrap { padding: 0 1em; }
+}
+
+/******************************************************************************/
+.right {
+    float: right;
+    margin: 0 0 .5em 1em;
+    text-align: center;
+}
+.logo {
+    background: #f80;
+    padding: 20px 0;
+    border: 4px outset #fa4;
+    border-radius: 35px;
+    padding: 10px 25px;
+}
+
+/* inspired by stackoverflow */
+/* colors mixed using: http://hslpicker.com/ */
+a {
+    /* color: rgb(0, 0, 238); */ /* Chrome default */
+    text-decoration: none;
+    color: rgba(39, 39, 176, 1);
+    /* color: #187eaa; */
+}
+a:visited {
+    /*color: rgb(85, 26, 139); */ /* Chrome default */
+    color: rgba(95, 45, 113, 1);
+    /* color: #bf2bc5; */
+}
+a:hover {
+    text-decoration: underline;
+    transition: all 0.25s;
+}
+a:active { opacity: .5; }
+
+/******************************************************************************/
+
+.entry-summary {
+    font-family: sans;
+}
+
+.pale {
+    color: #888;
+    font-size: 13px;
+}
+
+.tip {
+    border-left: solid transparent 5px;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+/*eof*/
+
