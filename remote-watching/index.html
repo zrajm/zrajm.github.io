@@ -1,0 +1,116 @@
+<!doctype html><!--*- ispell-dictionary: "svenska" -*-->
+<html lang=en>
+  <head>
+    <!-- Copyright 2020 by zrajm. Released under Creative Commons BY-SA license. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link type="image/png" rel="shortcut icon" href="/pic/favicon.png" />
+    <meta name=keywords content="bitcoin, BTC, mBTC, howto, beginner’s guide, introduction, howto">
+    <meta name=author content="zrajm">
+    <meta name=description content="A brief introduction to Bitcoin for non-technical people.">
+    <link rel="stylesheet" href="index.css">
+    <title>Watching Movies Remotely with Friends</title>
+    <style>
+      code {
+          font-size: larger;
+          background: #bbb;
+          border-radius: 2px;
+          padding: 1px 2px;
+          white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class=wrap>
+
+      <article class=hentry>
+        <h1 class=entry-title>Watching Movies Remotely with Friends</h1>
+
+        <blockquote class="entry-summary">This is a description of how to watch
+          movies with friends remotely. This assumes you'll be watching your
+          own media (i.e. both you and all your friends have a copy of the same
+          media file, locally on your own computer). We'll be using the media
+          player Mpv and Syncplay.
+          <br><span class=pale>
+            Zrajm, <time pubdate datetime="2020-06-01T02:37:38+02:00">June 1st, 2020</time>
+          </span>
+        </blockquote>
+
+        <h2>Preparing</h2>
+
+        <p>First off you'll need to install the relevant programs for your OS.
+        Here are the relevant pages:
+
+        <ul style=margin-left:1em>
+          <li><a href="https://mpv.io/installation/">Install Mpv</a> (Note, as
+            of June 2020, make sure that you get version 0.32.0 of Mpv, as
+            newer versions will not work well with Syncplay &ndash; according
+            to the Syncplay website.)
+
+            <p><b>Debian/Ubuntu etc.</b> &ndash; Mpv is in the repos, so just
+            run <code>apt install mpv</code> and you're good to go.
+          </li>
+
+          <li style="margin-top:1em"><a href="https://syncplay.pl/">Install
+            Syncplay</a>.
+
+            <p><b>Debian/Ubuntu etc.</b> &ndash; Syncplay is not in the
+            repositories (at least not on 20.04, Focal Fossa). The easiest way
+            to run it is to download the <code>.AppImage</code> file,
+            run <code>chmod +x FILE.AppImage</code> on it and then just execute
+            it with <code>./FILE.AppImage</code>.
+          </li>
+
+          <li style="margin-top:1em">Make sure you all have <i>the same
+            copy</i> of the movie you want to watch, on each of your computers.
+            Fetching the movie from the same source, or sharing it among each
+            other with SSH
+            (or <a href="https://winscp.net/eng/download.php">WinSCP</a> if you
+            happen to be on Windows), or
+            using <a href="https://www.dropbox.com/">Dropbox</a>
+            or <a href="https://sync.com/">Sync</a> might be a good idea.</li>
+        </ul>
+
+        <h2>Watching</h2>
+
+        <p>Start Syncplay. Select one of the servers in the dropdown, and enter
+        a username and a default room, then click "Store configuration and run
+        Syncplay". Make sure all participants enter exactly the same server
+        and room name (it's case sensetive!).
+
+        <p><img src="connect.png">
+
+        <p>After you've connected, and if everything's working it should look
+        like this:
+
+        <p><img src="group.png">
+
+        <p>The easiest way to load the video is to uncheck the "Enable shared
+        playlists" video, and then drag-and-drop the file into the Mpv window
+        (all user have to do this).
+
+        <p>The checkbox "I'm ready to watch!" is used to indicate to the crowd
+        that you're ready. If you ever pause the video, then this checkbox is
+        automatically unchecked and everyone is notified of who is the
+        offending pauser (the checkbox is automatically checked if you press
+        play again).
+
+        <p>There's also a chat function, you can either chat in the Syncplay
+        window, or &ndash; at least with Mpv &ndash; you can even chat directly
+        in the video by pressing enter and then typing stuff:
+
+        <p><img src="video.png">
+
+        <p>Happy watching!
+      </article>
+    </div>
+    <footer>
+      Written by <span class=author><a href="mail:zrajm@zrajm.org">zrajm</a></span>
+      <br><time pubdate datetime="2020-06-01T02:37:38+02:00">June 1st, 2020</time>
+      <br><i><small>
+          <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel=license>Creative Commons BY-SA</a>.
+      </small></i>
+    </footer>
+  </body>
+</html>
