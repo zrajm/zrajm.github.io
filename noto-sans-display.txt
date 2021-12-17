@@ -1,0 +1,11 @@
+
+The Noto Sans Display font was fetched from Google fonts and converted to WOFF2
+format using the `woff2_compress` command found in the Debian package `woff2`.
+The font itself was released under the 'SIL Open Font License Version 1.1'.
+
+The font is a variable font with variable properties 'wght' and 'wdth'.
+
+The font is available here:
+https://fonts.google.com/noto/specimen/Noto+Sans+Display
+
+/zrajm, 2021-12-17

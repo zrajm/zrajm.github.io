@@ -1,78 +1,117 @@
-<!doctype html><!--*- ispell-dictionary: "svenska" -*-->
-<html>
-  <head>
-    <!-- Copyright 2016–2021 by zrajm. Released under GPLv3 license. -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Zrajm projekt: Mestadels saker om teckenspråk.">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>Zrajms projekt</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-      <header class="inner">
-        <a id="forkme_banner" href="https://github.com/zrajm">Se på GitHub</a>
-        <h1 id="project_title">Zrajms projekt</h1>
-        <h2 id="project_tagline">Mestadels saker om teckenspråk (och lite andra språk).</h2>
-      </header>
-    </div>
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <ul>
-          <li><a href="/teckentranskription/lexicon.html">Experimentellt svenskt teckenspråkslexikon</a>
-            <br>Ett lexikon i vilket sökningar går brutalt snabbt. (Data
-            importeras
-            ifrån <a href="https://teckensprakslexikon.su.se/">Svenskt
-            Teckenspråkslexikon</a> varje måndag.)
+<!DOCTYPE html><!--*- ispell-dictionary: "sv"; js-indent-level: 2; css-indent-offset: 2 -*-->
+<!-- Copyright (c) 2016–2021 by zrajm. License: GPLv2 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Zrajm projekt: Mestadels saker om teckenspråk.">
+<title>Zrajms projekt</title>
+<link rel=icon href="data:,">
+<style>
+  @font-face {
+    font-family: 'Noto Sans Display';
+    font-style: normal;
+    src: url('noto-sans-display.woff2');
+    font-weight: 1 999;
+    font-stretch: 1% 500%;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Noto Sans Display';
+    font-style: italic;
+    src: url('noto-sans-display-italic.woff2');
+    font-weight: 1 999;
+    font-stretch: 1% 500%;
+    font-display: swap;
+  }
+  html {
+    line-height: 1.75rem;
+    background: #ffe;
+    font-size: 16px;
+    font-family: 'Noto Sans Display', sans;
+    font-weight: 300;
+  }
+  body {
+    max-width: 42rem;
+    margin: auto;
+  }
+  header, footer, dl {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  header, footer {
+    background: #000d;
+    color: #ffe;
+    padding: 1.5rem 1rem 1.5rem 2rem;
+  }
+  header { box-shadow: 0 -9999px 0 9999px #000d; }
+  footer { box-shadow: 0 9999px 0 9999px #000d; }
+  dl {
+    hyphens: auto; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto;
+  }
+  dt:before {
+    float: left;
+    content: '★';
+    position: relative;
+    width: 0;
+    left: -1.25rem;
+  }
+  dt {
+    margin-top: .5rem;
+    font-weight: 500;
+  }
+  dd {
+    margin: 0;
+  }
+  a:not(:hover) { text-decoration: none; }
+  h1 { font-size: 32px; font-weight: 800; }
+  h2 { font-size: 20px; font-weight: 300; }
+</style>
+<header lang="sv">
+  <h1>Zrajms projekt</h1>
+  <h2>Mestadels saker om teckenspråk (och lite andra språk)</h2>
+</header>
+<dl lang="sv">
+  <dt><a href="/teckentranskription/lexicon.html">Experimentellt svenskt teckenspråkslexikon</a>
+  <dd><a href="//teckensprakslexikon.su.se/">Ett lexikon i vilket sökningar går
+    brutalt snabbt. (Data importeras
+    ifrån <a href="//teckensprakslexikon.su.se/">Svenskt
+    Teckenspråkslexikon</a> varje måndag.)
 
-          <li><a href="teckenskrift/">Teckenskrift</a>
-            <br>Ett skriftsystem för svenskt teckenspråk baserat
-            på det amerikanska <a href="http://aslwrite.com/">ASLwrite</a>.
+  <dt><a href="teckenskrift/">Teckenskrift</a>
+  <dd>Ett skriftsystem för svenskt teckenspråk baserat på det
+    amerikanska <a href="//aslwrite.com/">ASLwrite</a>.
 
-          <li><a href="/teckentranskription/intro.html">Referens till teckenspråkstranskription</a>
-            <br>En utförlig beskrivning av den transkription som
-            teckenspråkslingvister använder sig av i Sverige.
+  <dt><a href="/teckentranskription/intro.html">Referens till teckenspråkstranskription</a>
+  <dd>En utförlig beskrivning av den transkription som teckenspråkslingvister
+    använder sig av i Sverige.
 
-          <li><a href="/teckentranskription">Transkriptionsverktyg för svenskt teckenspråk</a>
-            <br>En liten webbsideapp för att underlätta inskrivandet av
-            teckentranskriptioner.
+  <dt><a href="/teckentranskription">Transkriptionsverktyg för svenskt teckenspråk</a>
+  <dd>En liten webbsideapp för att underlätta inskrivandet av
+    teckentranskriptioner.
 
-          <li><a href="/teckentranskription/freesans-swl.html">Transkriptionstypsnitt: FreeSans-SWL</a>
-            <br>Ett modernt, fritt tillgängligt, TrueType-typsnitt som använder
-            sig av Unicode – kan användas i alla typer av dokument och
-            webbsidor. (Använd transkriptionsverktyget ovan för att mata in
-            text.)
+  <dt><a href="/teckentranskription/freesans-swl.html">Transkriptionstypsnitt: FreeSans-SWL</a>
+  <dd>Ett modernt, fritt tillgängligt, truetype-typsnitt som använder sig av
+    Unicode – kan användas i alla typer av dokument och webbsidor. (Använd
+    transkriptionsverktyget ovan för att mata in text.)
 
-          <li><a href="fingerfonetik/">Fingerfonetik</a>
-            <br>Skiss till ett litet enkelt transkriptionssystem för att
-            transkribera handformer i teckenspråk. (Systemet är tänkt att
-            kombineras med teckenspråkstranskriptionen för att transkribera
-            ovanliga handformer som inte har en egen symbol.)
+  <dt><a href="fingerfonetik/">Fingerfonetik</a>
+  <dd>Skiss till ett litet enkelt transkriptionssystem för att transkribera
+    handformer i teckenspråk. (Systemet är tänkt att kombineras med
+    teckenspråkstranskriptionen för att transkribera ovanliga handformer som
+    inte har en egen symbol.)
 
-          <li><a href="toki-pona-syllabics/">Stavelseskrift för toki pona</a>
-            <br>Mitt förslag på hur man kan skriva det minimalistiska
-            konstspråket <a href="https://en.wikipedia.org/wiki/Toki_Pona">toki
-            pona</a> med hjälp
-            av <a href="https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics">kanadensisk
-            stavelseskrift</a>.
+  <dt><a href="toki-pona-syllabics/">Stavelseskrift för toki pona</a>
+  <dd>Mitt förslag på hur man kan skriva det minimalistiska
+    konstspråket <a href="//en.wikipedia.org/wiki/Toki_Pona">toki pona</a> med
+    hjälp
+    av <a href="//en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics">kanadensisk
+    stavelseskrift</a>.
 
-          <li><a href="langtree/">Stavelseskrift i Nordamerikanska</a>
-            <br>Ett försök att
-            visualisera <a href="//en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics">stavelseskriftens</a>
-            utbredning i Nordamerika.
+  <dt><a href="langtree/">Stavelseskrift i Nordamerika</a>
+  <dd>Ett försök att
+    visualisera <a href="//en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics">stavelseskriftens</a>
+    utbredning i Nordamerika.
 
-          <li><a href="http://klingonska.org">Klingonska Akademien</a>
-            <br>Allt du kan tänkas vilja veta om det klingonska språket.
-        </ul>
-      </section>
-    </div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>© 2016–2021 by zrajm, Uppsala, Sweden
-      </footer>
-    </div>
-  </body>
-</html>
+  <dt><a href="http://klingonska.org">Klingonska Akademien</a>
+  <dd>Allt du kan tänkas vilja veta om det klingonska språket.
+</dl>
+<footer>© 2016–2021 by zrajm, Uppsala, Sweden</footer>
+<!--[eof]-->
