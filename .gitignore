@@ -1,3 +1,11 @@
+# -*- conf -*-
+\#*#
+.#*
+*~
+*.bak
+*.tmp
+
+# Subrepos.
 /cv/
 /dict/
 /emtre/
@@ -8,3 +16,5 @@
 /teckentranskription/
 /toki-pona-syllabics/
 /tsplex/
+
+#[eof]
