@@ -6,6 +6,7 @@
 *.tmp
 
 # Subrepos.
+/bitcoin/
 /cv/
 /dict/
 /emtre/
