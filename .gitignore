@@ -6,11 +6,15 @@
 *.tmp
 
 # Subrepos.
+/automata/
+/baremark/
 /bitcoin/
 /cv/
 /dict/
+/elemental/
 /emtre/
 /fingerfonetik/
+/firefox/
 /freesans-swl/
 /langtree/
 /lyricx/
@@ -21,13 +25,18 @@
 /poly/
 /programs/
 /ref/
+/rong/
 /sc-day/
 /songs/
 /st6/
+/tabcryo/
 /teckenskrift/
 /teckentranskription/
 /tenth-rate-movie/
+/test/
+/thesis/
 /toki-pona-syllabics/
+/tree/
 /tsplex/
 
 #[eof]
