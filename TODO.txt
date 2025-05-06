@@ -23,11 +23,12 @@
 * TODO Switch repos in '/programs/' over to Github
 * TODO Move stuff in '/programs/' to Github
   + And redirect old addresses there
-* TODO Remove '/tsplex/' from .gitignore
 * TODO Bitcoin article Facebook button
 * TODO SC-Day article Facebook button
 * TODO Merge commits
   + 1246789 (3 years)  zrajm <zrajm@klingonska.org>  Updated link to 'teckenskrift' article (again)
   + b838316 (3 years)  zrajm <zrajm@klingonska.org>  Updated link to 'teckenskrift' article
-* Finished
+* FINISHED
+** DONE Remove '/tsplex/' from .gitignore
+   CLOSED: [2025-05-06 Tue 15:32]
 * [EOF]
