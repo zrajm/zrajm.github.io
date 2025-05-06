@@ -1,0 +1,33 @@
+-*- org -*-
+
+* TODO Merge 'nerd' and 'ref' directories
+* TODO Add link from main page to 'nerd'
+* TODO Optimize all PNG images
+* TODO Optimize all JPEG images
+* TODO Fix 'ref'
+* TODO Make sure author name is just 'zrajm' everywhere
+* TODO tenth-rate-movie: add link to article from main page
+* TODO tenth-rate-movie: add <noscript> warning
+* TODO tenth-rate-movie: remake video tags
+  Video tags should look like this, instead of the current, <img> only tag, as
+  this would work just fine even if there is no Javascript.
+
+  <a href="https://youtu.be/TKPmGjVFbrY">
+    <img width="640" height="360" src="img-tkpmgjvfbry.jpg">
+  </a>
+
+  Old tag:
+
+  <img width="640" height="360" data-youtube-id="TKPmGjVFbrY">
+* TODO Redirect '/nerd/special-circumstances-day/' -> '/sc-day/'
+* TODO Switch repos in '/programs/' over to Github
+* TODO Move stuff in '/programs/' to Github
+  + And redirect old addresses there
+* TODO Remove '/tsplex/' from .gitignore
+* TODO Bitcoin article Facebook button
+* TODO SC-Day article Facebook button
+* TODO Merge commits
+  + 1246789 (3 years)  zrajm <zrajm@klingonska.org>  Updated link to 'teckenskrift' article (again)
+  + b838316 (3 years)  zrajm <zrajm@klingonska.org>  Updated link to 'teckenskrift' article
+* Finished
+* [EOF]
