@@ -6,6 +6,7 @@
 *.tmp
 
 # Subrepos.
+/3d-hand/
 /automata/
 /baremark/
 /bitcoin/
