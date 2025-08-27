@@ -5,7 +5,7 @@
 *.bak
 *.tmp
 
-# Subrepos.
+# START-SUBREPOS
 /3d-hand/
 /automata/
 /baremark/
@@ -44,5 +44,6 @@
 /toki-pona-syllabics/
 /tree/
 /www/
+# END-SUBREPOS
 
 #[eof]
